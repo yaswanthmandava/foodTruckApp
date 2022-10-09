@@ -1,7 +1,7 @@
-############## prerequisite
+# prerequisite
     should run mongodb in system
 
-############# commands to start app
+## commands to start app
 
 npm install
 
