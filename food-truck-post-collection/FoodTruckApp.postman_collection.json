@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "61e13510-f376-43ac-b5fb-b2d6df549a79",
+		"name": "FoodTruckApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FoodItem",
+			"item": [
+				{
+					"name": "Create food Item",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"undrallu\",\r\n    \"description\": \"..........\",\r\n    \"imageUrl\": \"https://www.indianhealthyrecipes.com/wp-content/uploads/2014/08/kudumulu-undrallu.jpg\",\r\n    \"isAvailable\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItems",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItems",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete food item by itemId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItems/1665334049",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItems",
+								"1665334049"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food item by itemId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItems/item-1665337308",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItems",
+								"item-1665337308"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FoodTruck",
+			"item": [
+				{
+					"name": "Create food truck",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"undrallu-vehicle\",\r\n    \"description\": \"..........\",\r\n    \"imageUrl\": \"https://www.shutterstock.com/image-photo/empty-scene-dark-street-food-600w-1727302222.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodTrucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodTrucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food Trucks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodTrucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodTrucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete food truck by truckId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodTrucks/1665335385",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodTrucks",
+								"1665335385"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food truck by truckId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodTrucks/truck-1665337333",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodTrucks",
+								"truck-1665337333"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FoodItemsPerTruck",
+			"item": [
+				{
+					"name": "Create menu for truck per date",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"date\": \"2022-10-09\",\r\n    \"truckId\": \"truck-1665338305\",\r\n    \"itemId\": \"item-1665338296\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItemsPerTruck"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food items per Truck",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItemsPerTruck"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete food items per truck by Id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck/1665334049",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItemsPerTruck",
+								"1665334049"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get food items by truckId, date",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck?truckId=truck-1665338305&date=2022-10-09",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"foodItemsPerTruck"
+							],
+							"query": [
+								{
+									"key": "truckId",
+									"value": "truck-1665338305"
+								},
+								{
+									"key": "date",
+									"value": "2022-10-09"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
