@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"undrallu\",\r\n    \"description\": \"..........\",\r\n    \"imageUrl\": \"https://www.indianhealthyrecipes.com/wp-content/uploads/2014/08/kudumulu-undrallu.jpg\",\r\n    \"isAvailable\": true\r\n}",
+							"raw": "{\r\n    \"name\": \"Salmon with salad\",\r\n    \"description\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyypesetting, remaining essentially unchanged. It was popularised in the 1960s.\",\r\n    \"price\": 8,\r\n    \"imageUrl\": \"https://i.ibb.co/85FdR1G/dinner2.png\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,12 +23,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItems",
+							"raw": "http://localhost:3300/api/v1/foodItems",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -44,12 +44,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItems",
+							"raw": "http://localhost:3300/api/v1/foodItems",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -65,12 +65,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItems/1665334049",
+							"raw": "http://localhost:3300/api/v1/foodItems/1665334049",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -87,12 +87,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItems/item-1665337308",
+							"raw": "http://localhost:3300/api/v1/foodItems/item-1665337308",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -115,7 +115,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"undrallu-vehicle\",\r\n    \"description\": \"..........\",\r\n    \"imageUrl\": \"https://www.shutterstock.com/image-photo/empty-scene-dark-street-food-600w-1727302222.jpg\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Utopia Parkway.\",\r\n    \"description\": \"..........\",\r\n    \"imageUrl\": \"https://bit.ly/3eeXmH2\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -123,12 +123,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodTrucks",
+							"raw": "http://localhost:3300/api/v1/foodTrucks",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -144,12 +144,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodTrucks",
+							"raw": "http://localhost:3300/api/v1/foodTrucks",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -165,12 +165,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodTrucks/1665335385",
+							"raw": "http://localhost:3300/api/v1/foodTrucks/1665335385",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -187,12 +187,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodTrucks/truck-1665337333",
+							"raw": "http://localhost:3300/api/v1/foodTrucks/truck-1665337333",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -215,7 +215,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"date\": \"2022-10-09\",\r\n    \"truckId\": \"truck-1665338305\",\r\n    \"itemId\": \"item-1665338296\"\r\n}",
+							"raw": "{\r\n    \"date\": \"2022-10-11\",\r\n    \"truckId\": \"truck-1665421320\",\r\n    \"itemId\": \"item-1665420055\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -223,12 +223,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck",
+							"raw": "http://localhost:3300/api/v1/foodItemsPerTruck",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -244,12 +244,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck",
+							"raw": "http://localhost:3300/api/v1/foodItemsPerTruck",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -265,12 +265,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck/1665334049",
+							"raw": "http://localhost:3300/api/v1/foodItemsPerTruck/1665334049",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",
@@ -287,12 +287,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/foodItemsPerTruck?truckId=truck-1665338305&date=2022-10-09",
+							"raw": "http://localhost:3300/api/v1/foodItemsPerTruck?truckId=truck-1665338305&date=2022-10-09",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "3000",
+							"port": "3300",
 							"path": [
 								"api",
 								"v1",

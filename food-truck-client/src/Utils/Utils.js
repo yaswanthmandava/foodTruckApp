@@ -1,0 +1,1 @@
+export const adminMenuItems = [ {'label':'Food items', 'key':'food-items'},{'label':'Food trucks', 'key':'food-trucks'}];

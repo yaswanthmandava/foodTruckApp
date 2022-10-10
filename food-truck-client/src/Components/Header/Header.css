@@ -1,0 +1,10 @@
+.navbar-brand img{
+    height: 50px;
+}
+
+.navbar {
+    margin-top: 0px !important;    
+}
+.hrcls {
+    background-color: crimson;
+}

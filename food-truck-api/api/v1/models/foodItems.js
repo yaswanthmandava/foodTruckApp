@@ -10,6 +10,7 @@ const foodItemsSchema = new mongoose.Schema({
     itemId: String,
     name: String,
     description: String,
+    price: Number,
     imageUrl: String,
     createdDate: Date,
     isAvailable: Boolean

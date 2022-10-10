@@ -1,0 +1,16 @@
+.admin{
+    
+}
+.adminContainer{
+    display: flex;
+}
+.menu{
+    width: 17vw;
+    padding-left:10px;
+}
+.menu li{
+    margin-bottom: 5px;
+}
+.selectedContainer{
+    width: 80vw;
+}

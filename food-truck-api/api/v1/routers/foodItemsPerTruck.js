@@ -41,6 +41,7 @@ const routes = {
             entry.itemName = itemInfo[0].name;
             entry.itemUrl = itemInfo[0].imageUrl;
             entry.itemDescription = itemInfo[0].description;
+            entry.price = itemInfo[0].price;
             const result = await foodItemsPerTruckModel.createfoodItemsPerTruck(
                 entry
             );

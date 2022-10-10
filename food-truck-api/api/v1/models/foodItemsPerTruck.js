@@ -16,6 +16,7 @@ const foodItemsPerTruckSchema = new mongoose.Schema({
     itemUrl: String,
     itemDescription: String,
     createdDate: Date,
+    price: Number,
 }, { toJSON: { virtuals: true }, id: false });
 foodItemsPerTruckSchema.index({ itemId: 1, truckId: 1, date:1});
 foodItemsPerTruckSchema.set('versionKey', false);
